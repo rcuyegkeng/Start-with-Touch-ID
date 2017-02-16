@@ -14,6 +14,8 @@
 		2EF0C5DB1E560EFB004752B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0C5D91E560EFB004752B8 /* LaunchScreen.storyboard */; };
 		2EF0C5E61E560EFB004752B8 /* Start_with_Touch_IDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0C5E51E560EFB004752B8 /* Start_with_Touch_IDTests.swift */; };
 		2EF0C5F11E560EFB004752B8 /* Start_with_Touch_IDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0C5F01E560EFB004752B8 /* Start_with_Touch_IDUITests.swift */; };
+		2EF0C6001E561101004752B8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF0C5FF1E561101004752B8 /* LocalAuthentication.framework */; };
+		2EF0C6021E5612F8004752B8 /* winter_mountain_lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF0C6011E5612F8004752B8 /* winter_mountain_lake.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2EF0C5EC1E560EFB004752B8 /* Start with Touch IDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Start with Touch IDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF0C5F01E560EFB004752B8 /* Start_with_Touch_IDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start_with_Touch_IDUITests.swift; sourceTree = "<group>"; };
 		2EF0C5F21E560EFB004752B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF0C5FF1E561101004752B8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		2EF0C6011E5612F8004752B8 /* winter_mountain_lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter_mountain_lake.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF0C6001E561101004752B8 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				2EF0C5E41E560EFB004752B8 /* Start with Touch IDTests */,
 				2EF0C5EF1E560EFB004752B8 /* Start with Touch IDUITests */,
 				2EF0C5CE1E560EFA004752B8 /* Products */,
+				2EF0C5FE1E561101004752B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				2EF0C5D71E560EFB004752B8 /* Assets.xcassets */,
 				2EF0C5D91E560EFB004752B8 /* LaunchScreen.storyboard */,
 				2EF0C5DC1E560EFB004752B8 /* Info.plist */,
+				2EF0C6011E5612F8004752B8 /* winter_mountain_lake.jpg */,
 			);
 			path = "Start with Touch ID";
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				2EF0C5F21E560EFB004752B8 /* Info.plist */,
 			);
 			path = "Start with Touch IDUITests";
+			sourceTree = "<group>";
+		};
+		2EF0C5FE1E561101004752B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0C5FF1E561101004752B8 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +252,7 @@
 			files = (
 				2EF0C5DB1E560EFB004752B8 /* LaunchScreen.storyboard in Resources */,
 				2EF0C5D81E560EFB004752B8 /* Assets.xcassets in Resources */,
+				2EF0C6021E5612F8004752B8 /* winter_mountain_lake.jpg in Resources */,
 				2EF0C5D61E560EFA004752B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
