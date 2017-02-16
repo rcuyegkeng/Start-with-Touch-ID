@@ -21,21 +21,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go4-8N-wda">
-                                <rect key="frame" x="0.0" y="147" width="375" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winter_mountain_lake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zgd-8t-fYN">
+                                <rect key="frame" x="16" y="253" width="343" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="I1u-JY-QwT"/>
+                                    <constraint firstAttribute="width" constant="343" id="LMk-3O-H3G"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go4-8N-wda">
+                                <rect key="frame" x="16" y="148" width="343" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B2p-BI-cRV"/>
+                                    <constraint firstAttribute="width" constant="343" id="QBR-bq-5fb"/>
+                                </constraints>
                                 <state key="normal" title="Touch to Start Secure App"/>
                                 <connections>
                                     <action selector="btnAuthentication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJV-lx-XfM"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winter_mountain_lake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zgd-8t-fYN">
-                                <rect key="frame" x="16" y="270" width="343" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Go4-8N-wda" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1cw-SB-e4R"/>
+                            <constraint firstItem="zgd-8t-fYN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UQ3-IC-shF"/>
+                            <constraint firstItem="zgd-8t-fYN" firstAttribute="top" secondItem="Go4-8N-wda" secondAttribute="bottom" constant="65" id="Z01-zI-TVb"/>
+                            <constraint firstItem="zgd-8t-fYN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y7d-ye-OTV"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="secureContent" destination="zgd-8t-fYN" id="haL-PX-wVb"/>
